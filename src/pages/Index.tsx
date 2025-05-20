@@ -399,10 +399,10 @@ const Index = () => {
               <GlowEffectButton onClick={() => scrollToSection('contact')}>
                 Get in Touch
               </GlowEffectButton>
-              <a href="https://whatsapp.com/channel/0029Vb9lC6kA89MdSFyb4x3l" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center w-12 h-12 rounded-full bg-black transition-colors duration-200 hover:bg-gray-800 shadow-lg hover:shadow-xl">
+              <a href="https://whatsapp.com/channel/0029Vb9lC6kA89MdSFyb4x3l" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center w-6 h-6 rounded-full bg-black transition-colors duration-200 hover:bg-gray-800 shadow-lg hover:shadow-xl">
                 <img src="/lovable-uploads/icons8-whatsapp.svg" alt="WhatsApp" className="w-6 h-6 invert" />
               </a>
-              <a href="https://www.instagram.com/wedessign?igsh=MzBsdTNwZTg2cGxr" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center w-12 h-12 rounded-full bg-black transition-colors duration-200 hover:bg-gray-800 shadow-lg hover:shadow-xl">
+              <a href="https://www.instagram.com/wedessign?igsh=MzBsdTNwZTg2cGxr" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center w-6 h-6 rounded-full bg-black transition-colors duration-200 hover:bg-gray-800 shadow-lg hover:shadow-xl">
                 <img src="/lovable-uploads/icons8-instagram.svg" alt="Instagram" className="w-6 h-6 invert" />
               </a>
             </div>
