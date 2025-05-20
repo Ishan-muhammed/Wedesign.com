@@ -388,7 +388,7 @@ const Index = () => {
               <span className="block text-[46px] md:text-[72px] leading-none">presence</span>
               <span className="flex items-baseline text-[46px] md:text-[72px] leading-none gap-2">
                 with
-                <Logo className="w-[200px] md:w-[250px] h-auto" />
+                <Logo className="w-[200px] md:w-[250px] h-auto mt-1.5" />
               </span>
             </h1>
 
