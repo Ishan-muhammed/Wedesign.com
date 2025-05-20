@@ -15,8 +15,8 @@ export const MobileMenu = ({ onNavigate }: MobileMenuProps) => {
   return (
     <Sheet>
       <SheetTrigger asChild>
-        <Button variant="ghost" size="icon" className="md:hidden">
-          <Menu className="h-14 w-14" />
+        <Button variant="ghost" className="md:hidden p-0 [&>svg]:h-14 [&>svg]:w-14">
+          <Menu />
         </Button>
       </SheetTrigger>
       <SheetContent 
