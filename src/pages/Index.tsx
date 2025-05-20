@@ -383,12 +383,12 @@ const Index = () => {
           >
             {/* Hero section heading */}
             <h1 className="font-poppins font-semibold mb-4 md:mb-6 we-gradient-text animate-fade-in drop-shadow-2xl text-left w-full leading-none" style={{ color: '#f4f4f2' }}>
-              <span className="block text-[48px] md:text-[72px] leading-none">Transform</span>
-              <span className="block text-[48px] md:text-[72px] leading-none">your online</span>
-              <span className="block text-[48px] md:text-[72px] leading-none">presence</span>
+              <span className="block text-[52px] md:text-[72px] leading-none">Transform</span>
+              <span className="block text-[52px] md:text-[72px] leading-none">your online</span>
+              <span className="block text-[52px] md:text-[72px] leading-none">presence</span>
               <span className="flex items-baseline text-[48px] md:text-[72px] leading-none">
                 with
-                <Logo className="w-[150px] md:w-[180px] h-auto ml-2" />
+                <Logo className="w-[170px] md:w-[180px] h-auto ml-2" />
               </span>
             </h1>
 
