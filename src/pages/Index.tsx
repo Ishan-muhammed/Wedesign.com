@@ -388,12 +388,12 @@ const Index = () => {
               <span className="block text-[48px] md:text-[72px] leading-none">presence</span>
               <span className="flex items-baseline text-[48px] md:text-[72px] leading-none">
                 with
-                <Logo className="w-[120px] md:w-[180px] h-auto ml-2" />
+                <Logo className="w-[150px] md:w-[180px] h-auto ml-2" />
               </span>
             </h1>
 
             <p className="text-lg md:text-xl mb-8 md:mb-10 animate-fade-in px-0 font-poppins" style={{ color: '#f4f4f2', animationDelay: '200ms' }}>
-              Discover how We Design brings your vision to life.
+              Discover how Wedesign brings your vision to life.
             </p>
             <div className={`flex items-center gap-4 mt-8 mb-8 transition-all duration-700 ${heroActionsVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
               <GlowEffectButton onClick={() => scrollToSection('contact')}>
