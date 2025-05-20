@@ -97,10 +97,10 @@ export const ContactForm = () => {
 
   return (
     <div className="w-full max-w-5xl mx-auto px-4 md:px-0" id="contact">
-      <div className="flex flex-col md:flex-row items-start gap-6 md:gap-12">
+      <div className="flex flex-col md:flex-row items-start md:justify-start gap-6 md:gap-12">
         <div 
           ref={detailsRef}
-          className={`flex-1 min-w-[270px] transition-all duration-700 -translate-x-2 md:-translate-x-4 ${
+          className={`flex-1 min-w-[270px] transition-all duration-700 md:-translate-x-4 ${
             isDetailsVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-16'
           }`}
         >
