@@ -426,7 +426,7 @@ const Index = () => {
                   aboutTitleVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-16'
                 }`}
               >
-                About Us
+                About Us wedesign
               </h3>
               <h2 
                 ref={aboutSupportTitleRef}
