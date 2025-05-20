@@ -108,7 +108,7 @@ export const ContactForm = () => {
           {formState === "success" ? (
             <FormSuccess onReset={() => setFormState("idle")} />
           ) : (
-            <form onSubmit={handleSubmit} className="text-[#f4f4f2]">
+            <form onSubmit={handleSubmit} className="text-[#f4f4f2] mx-auto w-full max-w-md">
               <FormInput
                 label="Name"
                 id="name"
