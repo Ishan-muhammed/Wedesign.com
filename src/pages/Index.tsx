@@ -328,7 +328,7 @@ const Index = () => {
       {/* HEADER NAVIGATION */}
       <header className="fixed z-50 top-0 left-0 w-full backdrop-blur-md shadow-sm border-b border-white/10" style={{ backgroundColor: '#220f6d' }}>
         <nav className="container mx-auto flex items-center justify-between py-6 px-8">
-          <div className="flex items-center gap-2 cursor-pointer ml-2 md:ml-0" onClick={() => scrollToSection("hero")}>
+          <div className="flex items-center gap-2 cursor-pointer md:ml-0" onClick={() => scrollToSection("hero")}>
             <Logo headerVariant={true} className="h-8" />
           </div>
           
