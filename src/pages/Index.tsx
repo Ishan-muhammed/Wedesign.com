@@ -389,16 +389,19 @@ const Index = () => {
                   <Logo className="w-[200px] md:w-[300px] h-auto mt-1" />
                 </span>
               </h1>
-              <p className="text-lg md:text-xl mb-8 md:mb-10 animate-fade-in font-poppins" style={{ color: '#ffffff', animationDelay: '200ms' }}>
-                Discover how Wedesign brings your vision to life.
-              </p>
             </div>
             {/* Image */}
             <div className={`flex-1 flex justify-center items-center transition-all duration-700 md:-mt-6 pb-10 order-2 md:order-none ${heroImageVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-16'}`}>
               <img src="/lovable-uploads/front page.png" alt="Front Page Visual" className="w-3/4 md:w-full max-w-lg h-auto object-contain" />
             </div>
+             {/* Subtitle */}
+            <div className={`flex-1 md:pr-12 order-3 md:order-none transition-all duration-700 ${heroTextVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-16'}`}>
+               <p className="text-lg md:text-xl mb-8 md:mb-10 animate-fade-in font-poppins" style={{ color: '#ffffff', animationDelay: '200ms' }}>
+                Discover how Wedesign brings your vision to life.
+              </p>
+            </div>
             {/* Actions (Buttons/Icons) */}
-            <div className={`flex items-center gap-4 mt-8 mb-8 transition-all duration-700 order-3 md:order-none ${heroActionsVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
+            <div className={`flex items-center gap-4 mt-8 mb-8 transition-all duration-700 order-4 md:order-none ${heroActionsVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
               <GlowEffectButton onClick={() => scrollToSection('contact')}>
                 Get in Touch
               </GlowEffectButton>
