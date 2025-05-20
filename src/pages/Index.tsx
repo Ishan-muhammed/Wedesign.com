@@ -392,7 +392,7 @@ const Index = () => {
               </span>
             </h1>
 
-            <p className="text-lg md:text-xl mb-8 md:mb-10 animate-fade-in px-0" style={{ color: '#f4f4f2', animationDelay: '200ms' }}>
+            <p className="text-lg md:text-xl mb-8 md:mb-10 animate-fade-in px-0 font-poppins" style={{ color: '#f4f4f2', animationDelay: '200ms' }}>
               Discover how We Design brings your vision to life.
             </p>
             <div className={`flex items-center gap-4 mt-8 mb-8 transition-all duration-700 ${heroActionsVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
