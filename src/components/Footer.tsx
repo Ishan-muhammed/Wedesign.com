@@ -44,7 +44,7 @@ export const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="absolute inset-x-0 bottom-0 w-full">
+      <div className="absolute inset-x-0 bottom-0 w-full pt-4">
         <div className="text-center text-sm pt-6 pb-2 text-white">
           Copyright © {new Date().getFullYear()} Wedesign. All rights reserved.
         </div>
