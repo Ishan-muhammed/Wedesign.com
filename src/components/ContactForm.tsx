@@ -99,6 +99,14 @@ export const ContactForm = () => {
     <div className="w-full max-w-5xl mx-auto px-4 md:px-0" id="contact">
       <div className="flex flex-col md:flex-row items-start gap-6 md:gap-12">
         <div 
+          ref={detailsRef}
+          className={`flex-1 min-w-[270px] transition-all duration-700 md:-translate-x-4 ${
+            isDetailsVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-16'
+          }`}
+        >
+          <ContactDetails />
+        </div>
+        <div 
           ref={formRef}
           className={`we-card flex-1 p-6 md:p-10 flex flex-col justify-center bg-gradient-to-br from-[#6506a2] to-[#1955d9] text-[#f4f4f2] transition-all duration-700 ${
             isFormVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-16'
@@ -183,14 +191,6 @@ export const ContactForm = () => {
               </GlowEffectButton>
             </form>
           )}
-        </div>
-        <div 
-          ref={detailsRef}
-          className={`flex-1 min-w-[270px] transition-all duration-700 md:-translate-x-4 ${
-            isDetailsVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-16'
-          }`}
-        >
-          <ContactDetails />
         </div>
       </div>
     </div>
