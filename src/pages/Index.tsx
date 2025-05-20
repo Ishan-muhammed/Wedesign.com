@@ -328,7 +328,7 @@ const Index = () => {
       {/* HEADER NAVIGATION */}
       <header className="fixed z-50 top-0 left-0 w-full backdrop-blur-md shadow-sm border-b border-white/10" style={{ backgroundColor: '#220f6d' }}>
         <nav className="container mx-auto flex items-center justify-between py-6 px-8">
-          <div className="flex items-center gap-2 cursor-pointer" onClick={() => scrollToSection("hero")}>
+          <div className="flex items-center gap-2 cursor-pointer ml-4 md:ml-8" onClick={() => scrollToSection("hero")}>
             <Logo headerVariant={true} className="h-8" />
           </div>
           
@@ -374,7 +374,7 @@ const Index = () => {
       </header>
       {/* Hero Section */}
       <section id="hero" className="mt-8 pt-24 pb-2 md:pt-36 md:py-12 w-screen relative left-1/2 right-1/2 -mx-[50vw] bg-[#66009d]">
-        <div className="max-w-screen-xl mx-auto flex flex-col md:flex-row items-center md:items-start px-4 md:px-12">
+        <div className="max-w-screen-xl mx-auto flex flex-col md:flex-row items-center md:items-start px-8 md:px-12">
           {/* Text Content */}
           <div
             className={`flex-1 md:pr-12 transition-all duration-700 ${
@@ -382,17 +382,17 @@ const Index = () => {
             }`}
           >
             {/* Hero section heading */}
-            <h1 className="font-poppins font-semibold mb-4 md:mb-6 we-gradient-text animate-fade-in drop-shadow-2xl text-left w-full leading-none" style={{ color: '#ffffff' }}>
-              <span className="block text-[48px] md:text-[72px] leading-none">Transform</span>
-              <span className="block text-[48px] md:text-[72px] leading-none">your online</span>
-              <span className="block text-[48px] md:text-[72px] leading-none">presence</span>
-              <span className="flex items-center text-[48px] md:text-[72px] leading-none">
+            <h1 className="font-poppins font-semibold mb-4 md:mb-6 we-gradient-text animate-fade-in drop-shadow-2xl text-left w-full leading-none space-y-2" style={{ color: '#ffffff' }}>
+              <span className="block text-[46px] md:text-[72px] leading-none">Transform</span>
+              <span className="block text-[46px] md:text-[72px] leading-none">your online</span>
+              <span className="block text-[46px] md:text-[72px] leading-none">presence</span>
+              <span className="flex items-baseline text-[46px] md:text-[72px] leading-none gap-2">
                 with
-                <Logo className="w-[210px] md:w-[250px] h-auto ml-2 mt-0.1" />
+                <Logo className="w-[200px] md:w-[250px] h-auto" />
               </span>
             </h1>
 
-            <p className="text-lg md:text-xl mb-8 md:mb-10 animate-fade-in px-0 font-poppins" style={{ color: '#ffffff', animationDelay: '200ms' }}>
+            <p className="text-lg md:text-xl mb-8 md:mb-10 animate-fade-in font-poppins" style={{ color: '#ffffff', animationDelay: '200ms' }}>
               Discover how Wedesign brings your vision to life.
             </p>
             <div className={`flex items-center gap-4 mt-8 mb-8 transition-all duration-700 ${heroActionsVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
