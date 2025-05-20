@@ -5,7 +5,7 @@ export const Footer = () => {
     <footer className="pt-6 pb-6 w-full min-h-[400px]" style={{ backgroundColor: '#220f6d' }}>
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-start gap-8 md:gap-20 px-4">
         {/* Logo and Description */}
-        <div className="w-[200px] flex flex-col items-start mb-10 md:mb-0">
+        <div className="w-full md:w-[250px] flex flex-col items-start mb-10 md:mb-0">
           <Logo className="h-12 w-[200px]" />
           <p className="text-sm text-white w-full break-words mt-3">
           We craft effective marketing and technology solutions tailored to your unique needs, driving results.
