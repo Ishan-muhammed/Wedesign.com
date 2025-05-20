@@ -386,9 +386,9 @@ const Index = () => {
               <span className="block text-[52px] md:text-[72px] leading-none">Transform</span>
               <span className="block text-[52px] md:text-[72px] leading-none">your online</span>
               <span className="block text-[52px] md:text-[72px] leading-none">presence</span>
-              <span className="flex items-baseline text-[48px] md:text-[72px] leading-none">
+              <span className="flex items-baseline text-[52px] md:text-[72px] leading-none">
                 with
-                <Logo className="w-[170px] md:w-[180px] h-auto ml-2" />
+                <Logo className="w-[190px] md:w-[200px] h-auto ml-2" />
               </span>
             </h1>
 
