@@ -19,7 +19,7 @@ export const ContactDetails = () => (
       </div>
       <div>
         <div className="text-base text-black/80 font-medium mb-1">Email</div>
-        <div className="font-bold text-1xl text-black break-all">wedesignhereforyou@gmail.com</div>
+        <div className="font-bold text-1xl text-black whitespace-nowrap">wedesignhereforyou@gmail.com</div>
       </div>
     </div>
     <div className="flex items-center gap-6">
