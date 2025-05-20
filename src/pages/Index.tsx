@@ -386,7 +386,7 @@ const Index = () => {
               <span className="block">your online</span>
               <span className="block">presence with</span>
               <span className="block mt-2 w-full">
-                <Logo className="w-full max-w-[280px] md:max-w-[500px] h-auto align-middle" />
+                <Logo className="w-full max-w-[180px] md:max-w-[500px] h-auto align-middle" />
               </span>
             </h1>
             <p className="text-lg md:text-xl mb-8 md:mb-10 animate-fade-in px-0" style={{ color: '#f4f4f2', animationDelay: '200ms' }}>
@@ -426,7 +426,7 @@ const Index = () => {
                   aboutTitleVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-16'
                 }`}
               >
-                About Us wedessign is
+                About Us
               </h3>
               <h2 
                 ref={aboutSupportTitleRef}
