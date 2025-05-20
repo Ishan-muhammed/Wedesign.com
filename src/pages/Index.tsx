@@ -381,14 +381,17 @@ const Index = () => {
               heroTextVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-16'
             }`}
           >
+            {/* Hero section heading */}
             <h1 className="font-poppins font-semibold mb-4 md:mb-6 we-gradient-text animate-fade-in drop-shadow-2xl text-left w-full" style={{ color: '#f4f4f2' }}>
-              <div className="text-5xl md:text-7xl">Transform</div>
-              <div className="text-5xl md:text-7xl">your online</div>
-              <div className="flex items-center">
-                <span className="text-5xl md:text-7xl">presence with</span>
-                <Logo className="w-32 md:w-64 h-auto ml-4" />
-              </div>
+              <span className="block text-[48px] md:text-[72px]">Transform</span>
+              <span className="block text-[48px] md:text-[72px]">your online</span>
+              <span className="block text-[48px] md:text-[72px]">presence</span>
+              <span className="flex items-baseline text-[48px] md:text-[72px]">
+                with
+                <Logo className="w-[120px] md:w-[180px] h-auto ml-2" />
+              </span>
             </h1>
+
             <p className="text-lg md:text-xl mb-8 md:mb-10 animate-fade-in px-0" style={{ color: '#f4f4f2', animationDelay: '200ms' }}>
               Discover how We Design brings your vision to life.
             </p>
