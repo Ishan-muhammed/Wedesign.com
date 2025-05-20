@@ -375,33 +375,26 @@ const Index = () => {
       {/* Hero Section */}
       <section id="hero" className="mt-8 pt-24 pb-2 md:pt-36 md:py-12 w-screen relative left-1/2 right-1/2 -mx-[50vw] bg-[#66009d]">
         <div className="max-w-screen-xl mx-auto flex flex-col md:flex-row items-center md:items-start px-8 md:px-12">
-          {/* Combined Text and Image container for mobile stacking */}
-          <div className={`flex-1 flex flex-col md:flex-row items-center md:items-start gap-8 md:gap-0 transition-all duration-700 ${heroTextVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-16'}`}>
-            {/* Text Content (Heading) */}
-            <div className="flex-1 md:pr-12 order-1 md:order-none">
-              {/* Hero section heading */}
-              <h1 className="font-poppins font-semibold mb-4 md:mb-6 we-gradient-text animate-fade-in drop-shadow-2xl text-left w-full leading-none space-y-2" style={{ color: '#ffffff' }}>
-                <span className="block text-[40px] md:text-[72px] leading-none">Transform</span>
-                <span className="block text-[40px] md:text-[72px] leading-none">your online</span>
-                <span className="block text-[40px] md:text-[72px] leading-none">presence</span>
-                <span className="flex items-center text-[40px] md:text-[72px] leading-none gap-2">
-                  <span className="mt-px">with</span>
-                  <Logo className="w-[200px] md:w-[300px] h-auto mt-1" />
-                </span>
-              </h1>
-            </div>
-            {/* Image */}
-            <div className={`flex-1 flex justify-center items-center transition-all duration-700 md:-mt-6 pb-10 order-2 md:order-none ${heroImageVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-16'}`}>
-              <img src="/lovable-uploads/front page.png" alt="Front Page Visual" className="w-3/4 md:w-full max-w-lg h-auto object-contain" />
-            </div>
-             {/* Subtitle */}
-            <div className={`flex-1 md:pr-12 order-3 md:order-none transition-all duration-700 ${heroTextVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-16'}`}>
-               <p className="text-lg md:text-xl mb-8 md:mb-10 animate-fade-in font-poppins" style={{ color: '#ffffff', animationDelay: '200ms' }}>
-                Discover how Wedesign brings your vision to life.
-              </p>
-            </div>
-            {/* Actions (Buttons/Icons) */}
-            <div className={`flex items-center gap-4 mt-8 mb-8 transition-all duration-700 order-4 md:order-none ${heroActionsVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
+          {/* Text Content */}
+          <div
+            className={`flex-1 md:pr-12 transition-all duration-700 ${
+              heroTextVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-16'
+            }`}
+          >
+            {/* Hero section heading */}
+            <h1 className="font-poppins font-semibold mb-4 md:mb-6 we-gradient-text animate-fade-in drop-shadow-2xl text-left w-full leading-none space-y-2" style={{ color: '#ffffff' }}>
+              <span className="block text-[40px] md:text-[72px] leading-none">Transform</span>
+              <span className="block text-[40px] md:text-[72px] leading-none">your online</span>
+              <span className="block text-[40px] md:text-[72px] leading-none">presence</span>
+              <span className="flex items-center text-[40px] md:text-[72px] leading-none gap-2">
+                <span className="mt-px">with</span>
+                <Logo className="w-[200px] md:w-[300px] h-auto mt-1" />
+              </span>
+            </h1>
+            <p className="text-lg md:text-xl mb-8 md:mb-10 animate-fade-in font-poppins" style={{ color: '#ffffff', animationDelay: '200ms' }}>
+              Discover how Wedesign brings your vision to life.
+            </p>
+            <div className={`flex items-center gap-4 mt-8 mb-8 transition-all duration-700 ${heroActionsVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
               <GlowEffectButton onClick={() => scrollToSection('contact')}>
                 Get in Touch
               </GlowEffectButton>
@@ -412,6 +405,14 @@ const Index = () => {
                 <img src="/lovable-uploads/icons8-instagram.svg" alt="Instagram" className="w-6 h-6 invert" />
               </a>
             </div>
+          </div>
+          {/* Image */}
+          <div
+            className={`flex-1 flex justify-center items-center transition-all duration-700 md:-mt-6 pb-10 ${
+              heroImageVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-16'
+            }`}
+          >
+            <img src="/lovable-uploads/front page.png" alt="Front Page Visual" className="w-3/4 md:w-full max-w-lg h-auto object-contain" />
           </div>
         </div>
       </section>
