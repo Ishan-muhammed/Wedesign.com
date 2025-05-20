@@ -33,12 +33,12 @@ export const Footer = () => {
         {/* Social Media Icons (replacing Subscribe) */}
         <div className="w-full md:w-1/5 text-left flex flex-col items-start">
           <h4 className="font-bold text-lg mb-4">FOLLOW US</h4>
-          <div className="flex space-x-8 mt-4">
-            <a href="https://whatsapp.com/channel/0029Vb9lC6kA89MdSFyb4x3l" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center w-12 h-12 rounded-full bg-black transition-colors duration-200 hover:bg-gray-800">
+          <div className="flex space-x-6 mt-4">
+            <a href="https://whatsapp.com/channel/0029Vb9lC6kA89MdSFyb4x3l" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center w-12 h-12 rounded-full bg-black transition-colors duration-200 hover:bg-gray-800 pb-4 md:pb-0">
               <img src="/lovable-uploads/icons8-whatsapp.svg" alt="WhatsApp" className="w-6 h-6 invert" />
             </a>
             <a
-                href="https://www.instagram.com/wedessign?igsh=MzBsdTNwZTg2cGxr"  target="_blank" rel="noopener noreferrer" className="flex items-center justify-center w-12 h-12 rounded-full bg-black transition-colors duration-200 hover:bg-gray-800">
+                href="https://www.instagram.com/wedessign?igsh=MzBsdTNwZTg2cGxr"  target="_blank" rel="noopener noreferrer" className="flex items-center justify-center w-12 h-12 rounded-full bg-black transition-colors duration-200 hover:bg-gray-800 pb-4 md:pb-0">
                 <img src="/lovable-uploads/icons8-instagram.svg" alt="Instagram" className="w-6 h-6 invert" />
               </a>
           </div>
@@ -46,7 +46,7 @@ export const Footer = () => {
       </div>
       <div className="absolute inset-x-0 bottom-0 w-full">
         <div className="text-center text-sm pt-6 pb-2 text-white">
-          Copyright © {new Date().getFullYear()} WeDesign. All rights reserved.
+          Copyright © {new Date().getFullYear()} Wedesign. All rights reserved.
         </div>
       </div>
     </footer>
