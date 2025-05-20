@@ -382,7 +382,7 @@ const Index = () => {
             }`}
           >
             <h1 className="text-6xl md:text-6xl font-poppins font-semibold mb-4 md:mb-6 we-gradient-text animate-fade-in drop-shadow-2xl text-left w-full" style={{ color: '#f4f4f2' }}>
-              <span className="block">Transform</span>
+              <span className="block">Tnsform</span>
               <span className="block">your online</span>
               <span className="block">presence with</span>
               <span className="block mt-2 w-full">
