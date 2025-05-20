@@ -8,6 +8,7 @@ import { GlowEffectButton } from "@/components/ui/glow-effect-demo";
 import { MobileMenu } from "@/components/MobileMenu";
 import { Footer } from "@/components/Footer";
 import { GlowEffect } from "@/components/ui/glow-effect";
+import { HoverBox } from "@/components/HoverBox";
 
 const projects = [
   {
@@ -559,14 +560,14 @@ const Index = () => {
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 custom-cursor-stacks">
               {stacks.map((stack, i) => (
-                <div
+                <HoverBox
                   key={stack.title}
                   ref={stackRefs.current[i]}
-                  className={`transition-colors duration-700 active:transition-colors active:duration-700 ${stackVisible[i] ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'} transition-all duration-700 bg-[#181028] rounded-3xl flex flex-col items-center justify-center py-10 px-4 shadow-lg hover:bg-gradient-to-tr hover:from-[#9333ea] hover:to-[#2d145e]`}
+                  className={`transition-all duration-700 ${stackVisible[i] ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
                 >
                   <img src={stack.img} alt={stack.title} className="w-16 h-16 mb-4" />
                   <span className="text-xl font-semibold text-gray-300">{stack.title}</span>
-                </div>
+                </HoverBox>
               ))}
             </div>
           </div>
@@ -584,9 +585,9 @@ const Index = () => {
               Our Project
             </h2>
             <div className="max-w-6xl w-full mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-16 md:gap-8 px-4 md:px-0">
-              <div
+              <HoverBox
                 ref={projectCardRefs.current[0]}
-                className={`transition-colors duration-700 active:transition-colors active:duration-700 transition-all duration-700 ${projectCardsVisible[0] ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
+                className={`transition-all duration-700 ${projectCardsVisible[0] ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
               >
                 <ProjectCard
                   title="Exile Automate"
@@ -595,10 +596,10 @@ const Index = () => {
                   liveSiteUrl="https://www.exileautomate.com/"
                   index={0}
                 />
-              </div>
-              <div
+              </HoverBox>
+              <HoverBox
                 ref={projectCardRefs.current[1]}
-                className={`transition-colors duration-700 active:transition-colors active:duration-700 transition-all duration-700 ${projectCardsVisible[1] ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
+                className={`transition-all duration-700 ${projectCardsVisible[1] ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
               >
                 <ProjectCard
                   title="Nutrichef AI"
@@ -607,10 +608,10 @@ const Index = () => {
                   liveSiteUrl="https://healthy-meal-architect-22.vercel.app/"
                   index={1}
                 />
-              </div>
-              <div
+              </HoverBox>
+              <HoverBox
                 ref={projectCardRefs.current[2]}
-                className={`transition-colors duration-700 active:transition-colors active:duration-700 transition-all duration-700 ${projectCardsVisible[2] ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
+                className={`transition-all duration-700 ${projectCardsVisible[2] ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
               >
                 <ProjectCard
                   title="Zoom auto detailing"
@@ -619,7 +620,7 @@ const Index = () => {
                   liveSiteUrl="https://www.zoomautodetailing.com/"
                   index={2}
                 />
-              </div>
+              </HoverBox>
             </div>
           </div>
         </section>
