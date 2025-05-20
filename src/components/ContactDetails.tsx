@@ -1,7 +1,7 @@
 import { Phone, Mail, MapPin } from "lucide-react";
 
 export const ContactDetails = () => (
-  <div className="w-full h-full flex flex-col justify-center p-6 md:p-10 bg-white rounded-xl gap-10">
+  <div className="w-full h-full flex flex-col justify-center pt-6 pb-6 pl-6 pr-6 md:p-10 bg-white rounded-xl gap-10">
     <div className="flex items-center gap-6">
       <div className="flex-shrink-0 rounded-full bg-gradient-to-br from-[#66009d] to-[#9333ea] p-4">
         <Phone className="w-10 h-8 text-white" />

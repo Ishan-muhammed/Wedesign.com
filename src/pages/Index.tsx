@@ -491,7 +491,7 @@ const Index = () => {
               {/* Web Development Card */}
               <div
                 ref={serviceCardRefs.current[0]}
-                className={`transition-colors duration-700 transition-all duration-700 ${serviceCardsVisible[0] ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'} bg-[#181028] rounded-3xl py-6 px-6 md:px-8 min-h-[280px] md:min-h-[320px] max-w-sm w-full flex flex-col items-start shadow-lg hover:bg-gradient-to-tr hover:from-[#9333ea] hover:to-[#2d145e]`}
+                className={`transition-colors duration-700 active:transition-colors active:duration-700 transition-all duration-700 ${serviceCardsVisible[0] ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'} bg-[#181028] rounded-3xl py-6 px-6 md:px-8 min-h-[280px] md:min-h-[320px] max-w-sm w-full flex flex-col items-start shadow-lg hover:bg-gradient-to-tr hover:from-[#9333ea] hover:to-[#2d145e]`}
               >
                 <img src="/lovable-uploads/web dev icon.png" alt="Web Development" className="w-20 h-20 mb-6" />
                 <h3 className="text-2xl font-bold mb-2" style={{ color: '#f4f4f2' }}>
@@ -504,7 +504,7 @@ const Index = () => {
               {/* App Development Card */}
               <div
                 ref={serviceCardRefs.current[1]}
-                className={`transition-colors duration-700 transition-all duration-700 ${serviceCardsVisible[1] ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'} bg-[#181028] rounded-3xl py-6 px-8 min-h-[320px] max-w-sm w-full flex flex-col items-start shadow-lg hover:bg-gradient-to-tr hover:from-[#9333ea] hover:to-[#2d145e]`}
+                className={`transition-colors duration-700 active:transition-colors active:duration-700 transition-all duration-700 ${serviceCardsVisible[1] ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'} bg-[#181028] rounded-3xl py-6 px-8 min-h-[320px] max-w-sm w-full flex flex-col items-start shadow-lg hover:bg-gradient-to-tr hover:from-[#9333ea] hover:to-[#2d145e]`}
               >
                 <img src="/lovable-uploads/pngwing.com.png" alt="App Development" className="w-20 h-20 mb-6" />
                 <h3 className="text-2xl font-bold mb-2" style={{ color: '#f4f4f2' }}>
@@ -517,7 +517,7 @@ const Index = () => {
               {/* Software Development Card */}
               <div
                 ref={serviceCardRefs.current[2]}
-                className={`transition-colors duration-700 transition-all duration-700 ${serviceCardsVisible[2] ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'} bg-[#181028] rounded-3xl py-6 px-8 min-h-[320px] max-w-sm w-full flex flex-col items-start shadow-lg hover:bg-gradient-to-tr hover:from-[#9333ea] hover:to-[#2d145e]`}
+                className={`transition-colors duration-700 active:transition-colors active:duration-700 transition-all duration-700 ${serviceCardsVisible[2] ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'} bg-[#181028] rounded-3xl py-6 px-8 min-h-[320px] max-w-sm w-full flex flex-col items-start shadow-lg hover:bg-gradient-to-tr hover:from-[#9333ea] hover:to-[#2d145e]`}
               >
                 <div className="flex gap-2 mb-6">
                   <img src="/lovable-uploads/Pr.png" alt="Pr" className="w-10 h-10" />
@@ -562,7 +562,7 @@ const Index = () => {
                 <div
                   key={stack.title}
                   ref={stackRefs.current[i]}
-                  className={`transition-colors duration-700 ${stackVisible[i] ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'} transition-all duration-700 bg-[#181028] rounded-3xl flex flex-col items-center justify-center py-10 px-4 shadow-lg hover:bg-gradient-to-tr hover:from-[#9333ea] hover:to-[#2d145e]`}
+                  className={`transition-colors duration-700 active:transition-colors active:duration-700 ${stackVisible[i] ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'} transition-all duration-700 bg-[#181028] rounded-3xl flex flex-col items-center justify-center py-10 px-4 shadow-lg hover:bg-gradient-to-tr hover:from-[#9333ea] hover:to-[#2d145e]`}
                 >
                   <img src={stack.img} alt={stack.title} className="w-16 h-16 mb-4" />
                   <span className="text-xl font-semibold text-gray-300">{stack.title}</span>
@@ -586,7 +586,7 @@ const Index = () => {
             <div className="max-w-6xl w-full mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-16 md:gap-8 px-4 md:px-0">
               <div
                 ref={projectCardRefs.current[0]}
-                className={`transition-colors duration-700 transition-all duration-700 ${projectCardsVisible[0] ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
+                className={`transition-colors duration-700 active:transition-colors active:duration-700 transition-all duration-700 ${projectCardsVisible[0] ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
               >
                 <ProjectCard
                   title="Exile Automate"
@@ -598,7 +598,7 @@ const Index = () => {
               </div>
               <div
                 ref={projectCardRefs.current[1]}
-                className={`transition-colors duration-700 transition-all duration-700 ${projectCardsVisible[1] ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
+                className={`transition-colors duration-700 active:transition-colors active:duration-700 transition-all duration-700 ${projectCardsVisible[1] ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
               >
                 <ProjectCard
                   title="Nutrichef AI"
@@ -610,7 +610,7 @@ const Index = () => {
               </div>
               <div
                 ref={projectCardRefs.current[2]}
-                className={`transition-colors duration-700 transition-all duration-700 ${projectCardsVisible[2] ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
+                className={`transition-colors duration-700 active:transition-colors active:duration-700 transition-all duration-700 ${projectCardsVisible[2] ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
               >
                 <ProjectCard
                   title="Zoom auto detailing"
