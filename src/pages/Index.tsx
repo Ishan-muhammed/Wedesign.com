@@ -374,7 +374,7 @@ const Index = () => {
       </header>
       {/* Hero Section */}
       <section id="hero" className="h-screen mt-8 pt-24 pb-2 md:pt-48 md:py-40 w-screen relative left-1/2 right-1/2 -mx-[50vw] bg-[#66009d]">
-        <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center md:items-start px-4 md:px-12">
+        <div className="max-w-screen-xl mx-auto flex flex-col md:flex-row items-center md:items-start px-4 md:px-12">
           {/* Text Content */}
           <div
             className={`flex-1 md:pr-12 transition-all duration-700 ${
