@@ -409,7 +409,7 @@ const Index = () => {
           </div>
           {/* Image */}
           <div
-            className={`flex-1 flex justify-center items-center transition-all duration-700 ${
+            className={`flex-1 flex justify-center items-center transition-all duration-700 md:-mt-6 ${
               heroImageVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-16'
             } pb-10`}
           >
