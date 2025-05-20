@@ -100,7 +100,7 @@ export const ContactForm = () => {
       <div className="flex flex-col md:flex-row items-start md:justify-start gap-6 md:gap-12">
         <div 
           ref={detailsRef}
-          className={`flex-1 min-w-[270px] transition-all duration-700 md:-translate-x-4 ${
+          className={`flex-1 transition-all duration-700 md:min-w-[270px] md:-translate-x-4 ${
             isDetailsVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-16'
           }`}
         >
